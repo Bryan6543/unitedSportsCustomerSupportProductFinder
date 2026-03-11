@@ -79,8 +79,8 @@ export default function Home() {
             );
           }
 
-          // const mainSrc = `/${code}/${code}-${mainImageNum}.avif`;
-          const mainSrc = "/unitedsports_logo.png";
+          const mainSrc = `/${code}/${code}-${mainImageNum}.avif`;
+          // const mainSrc = "/unitedsports_logo.png";
 
           return (
             <Link key={p.id} href={`/product/${p.id}`} className="">
@@ -114,7 +114,7 @@ export default function Home() {
       <div className="grid grid-cols-3 gap-5">
         {/* Brands */}
         <Link
-          href="/search"
+          href="/brands"
           className="flex shadow-sm hover:shadow-xl flex-col gap-5 justify-center items-center hover:scale-105 duration-300 hover:bg-green-900 hover:text-white pb-5 rounded-2xl ease-linear"
         >
           <Image
